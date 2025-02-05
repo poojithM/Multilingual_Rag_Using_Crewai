@@ -1,0 +1,27 @@
+rag_agent_task:
+  description: >
+    Understand the {question}, search through the provided PDF documents,
+    and retrieve the most accurate and relevant answer to the question.
+  expected_output: >
+    A clear and perfect answer to the {question} based on the
+    information extracted from the PDF documents.
+  agent: rag_agent
+
+summary_agent_task:
+  description: >
+    Summarize the data provided by the 'rag_agent' into a clear and concise format.
+    Focus on extracting the key points and presenting them in an easy-to-understand manner.
+  expected_output: >
+    A clear and concise summary of the data, highlighting the most important information
+    without unnecessary details.
+  agent: summary_agent
+
+
+translator_agent_task:
+  description: >
+    Translate the summarized data provided by the summary_agent into {language}.
+    Ensure the translation is clear, accurate, and easy to understand while preserving
+    the original meaning and context.
+  expected_output: >
+    A clear and easy-to-understand translation of the summarized data in {language}.
+  agent: translator_agent

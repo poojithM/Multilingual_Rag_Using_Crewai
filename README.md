@@ -23,7 +23,7 @@ The Multilingual PDF Document Interpreter is designed to process any PDF documen
 
 ## System Requirements
 - Python 3.x
-- Dependencies: `crewai`, `pandas`, `sklearn`, `dotenv`
+- Dependencies: `crewai`, `Openai`, `Langchain`, `dotenv`
 
 ## Conclusion
 The Multilingual PDF Document Interpreter stands as a vital tool in breaking down language barriers, offering precise and accessible translations of complex PDF documents, thereby facilitating better understanding and utilization of global information resources.
